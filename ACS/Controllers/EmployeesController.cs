@@ -7,12 +7,17 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ACS.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace ACS.Controllers
 {
     public class EmployeesController : Controller
     {
         private ACSContext db = new ACSContext();
+
+        // para creacion de usuarios
+        ApplicationDbContext dbu = new ApplicationDbContext();
 
         // GET: Employees
         public ActionResult Index()
@@ -56,6 +61,16 @@ namespace ACS.Controllers
                 if (ModelState.IsValid)
                 {
                     db.Employees.Add(employee);
+
+                    // Create user
+                    var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(dbu));
+                    var user = new ApplicationUser
+                    {
+                        UserName = employee.Email,
+                        Email = employee.Email
+                    };
+                    userManager.Create(user, employee.DocumentNumber);
+
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
