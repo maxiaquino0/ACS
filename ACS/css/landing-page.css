@@ -39,7 +39,7 @@ h6 {
     color: #f8f8f8;
     background: url(../img/parquet-fondo.jpg) no-repeat center center;
     width: auto;
-    height: 700px;
+    height: 610px;
     /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     background-size: cover;
 }
@@ -172,4 +172,16 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.index{
+    padding: 0px 0px 0px 0px;
+}
+
+.logo{
+    background:url(../../img/ACSico2.PNG) no-repeat center center;
+    text-indent:-9999px;
+    display:block;
+    width:50px;
+    height:50px;
 }

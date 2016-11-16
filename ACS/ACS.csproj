@@ -257,6 +257,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\ACSico.PNG" />
+    <Content Include="img\ACSico2.PNG" />
     <Content Include="img\parquet-fondo.jpg" />
     <Content Include="img\banner-bg.jpg" />
     <Content Include="img\dog.png" />

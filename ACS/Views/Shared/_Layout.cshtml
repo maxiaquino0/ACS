@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/css/landing-page.css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
@@ -18,7 +19,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                @Html.ActionLink("ACS Web", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand pull-left logo" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -55,7 +56,7 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="index body-content">
         @RenderBody()
         <hr />
         <footer>
