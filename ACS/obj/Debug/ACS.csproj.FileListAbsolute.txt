@@ -1,0 +1,182 @@
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ApplicationInsights.config
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\csc.exe
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\vbc.exe
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.dll.config
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.pdb
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Antlr3.Runtime.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.SqlServer.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Web.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Newtonsoft.Json.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Owin.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Net.Http.Formatting.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Helpers.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.WebHost.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Mvc.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Optimization.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Razor.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\WebGrease.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Web.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Helpers.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Mvc.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Optimization.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Razor.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Antlr3.Runtime.pdb
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Newtonsoft.Json.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Net.Http.Formatting.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.WebHost.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.SqlServer.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.Migrations.InitialCreate.resources
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.Migrations.SeAgregaPartner.resources
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.csproj.GenerateResource.Cache
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.dll
+C:\Users\Maxi Aquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.pdb
+C:\Users\Maxi Aquino\documents\visual studio 2015\Projects\ACS\ACS\obj\Debug\ACS.csprojResolveAssemblyReference.cache
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ApplicationInsights.config
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\csc.exe
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\vbc.exe
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\VBCSCompiler.exe
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.dll.config
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\ACS.pdb
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Antlr3.Runtime.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.SqlServer.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Web.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Newtonsoft.Json.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Owin.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Net.Http.Formatting.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Helpers.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.WebHost.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Mvc.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Optimization.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Razor.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Razor.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\WebGrease.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.Web.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Helpers.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Mvc.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Optimization.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Razor.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.WebPages.Razor.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Antlr3.Runtime.pdb
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Newtonsoft.Json.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Net.Http.Formatting.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\System.Web.Http.WebHost.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\EntityFramework.SqlServer.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.csprojResolveAssemblyReference.cache
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.Migrations.InitialCreate.resources
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.Migrations.SeAgregaPartner.resources
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.csproj.GenerateResource.Cache
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.dll
+C:\Users\oaquino\Documents\Visual Studio 2015\Projects\ACS\ACS\obj\Debug\ACS.pdb
