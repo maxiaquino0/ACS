@@ -270,3 +270,4 @@ C:\GIT\ACS\ACS\obj\Debug\ACS.Migrations.SeAgregaPartner.resources
 C:\GIT\ACS\ACS\obj\Debug\ACS.csproj.GenerateResource.Cache
 C:\GIT\ACS\ACS\obj\Debug\ACS.dll
 C:\GIT\ACS\ACS\obj\Debug\ACS.pdb
+C:\GIT\ACS\ACS\obj\Debug\ACS.csprojResolveAssemblyReference.cache
