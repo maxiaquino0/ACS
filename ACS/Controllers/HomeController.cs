@@ -15,14 +15,14 @@ namespace ACS.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Sobre nosotros.";
+            ViewBag.Message = "About Us.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Nuestros medios de contacto.";
+            ViewBag.Message = "Our means of contact";
 
             return View();
         }
