@@ -265,7 +265,6 @@ C:\GIT\ACS\ACS\bin\Microsoft.Owin.Security.OAuth.xml
 C:\GIT\ACS\ACS\bin\Microsoft.Owin.Security.Google.xml
 C:\GIT\ACS\ACS\bin\Microsoft.Owin.Security.Twitter.xml
 C:\GIT\ACS\ACS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\GIT\ACS\ACS\obj\Debug\ACS.csprojResolveAssemblyReference.cache
 C:\GIT\ACS\ACS\obj\Debug\ACS.Migrations.InitialCreate.resources
 C:\GIT\ACS\ACS\obj\Debug\ACS.Migrations.SeAgregaPartner.resources
 C:\GIT\ACS\ACS\obj\Debug\ACS.csproj.GenerateResource.Cache

@@ -1,17 +1,21 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Mail Atento:</strong>   <a href="mailto:oaquino@atento.com.ar">oaquino@atento.com.ar</a><br />
-    <strong>Mail Particular:</strong> <a href="mailto:maxiaquino0@gmail.com">maxiaquino0@gmail.com</a>
-</address>
+    <h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+<div class="container contact">
+    <address>
+        One Microsoft Way<br />
+        Redmond, WA 98052-6399<br />
+        <abbr title="Phone">P:</abbr>
+        425.555.0100
+    </address>
+    <div class="contact contact-img">
+        <img src="~/img/celBasquet.png" />
+    </div>
+    <address>
+        <i class="fa fa-envelope-o fa-fw"></i><strong>Mail Atento:</strong>   <a href="mailto:oaquino@atento.com.ar">oaquino@atento.com.ar</a><br />
+        <i class="fa fa-envelope-o fa-fw"></i><strong>Mail Particular:</strong> <a href="mailto:maxiaquino0@gmail.com">maxiaquino0@gmail.com</a>
+    </address>
+</div>
