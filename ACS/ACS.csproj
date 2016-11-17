@@ -260,11 +260,6 @@
     <Content Include="img\ACSico2.PNG" />
     <Content Include="img\celBasquet.png" />
     <Content Include="img\parquet-fondo.jpg" />
-    <Content Include="img\banner-bg.jpg" />
-    <Content Include="img\dog.png" />
-    <Content Include="img\intro-bg.jpg" />
-    <Content Include="img\ipad.png" />
-    <Content Include="img\phones.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
