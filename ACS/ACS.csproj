@@ -229,6 +229,7 @@
     <Compile Include="Models\MonthlyFee.cs" />
     <Compile Include="Models\MonthlyFeeDetail.cs" />
     <Compile Include="Models\MonthlyFeeStatus.cs" />
+    <Compile Include="Models\PartnerSport.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="Models\ACSContext.cs" />
     <Compile Include="Models\DocumentType.cs" />
@@ -241,6 +242,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\MonthlyFeeView.cs" />
     <Compile Include="ViewModels\MonthlyFeeViewDetail.cs" />
+    <Compile Include="ViewModels\PartnerSportView.cs" />
     <Compile Include="ViewModels\RoleView.cs" />
     <Compile Include="ViewModels\UserView.cs" />
   </ItemGroup>
@@ -382,6 +384,9 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Users\Roles.cshtml" />
     <Content Include="Views\Users\AddRole.cshtml" />
+    <Content Include="Views\Partners\IndexFamilyGroup.cshtml" />
+    <Content Include="Views\Partners\SportList.cshtml" />
+    <Content Include="Views\Partners\AddSport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

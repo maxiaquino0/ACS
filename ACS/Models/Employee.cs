@@ -38,6 +38,7 @@ namespace ACS.Models
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
+        [Display(Name = "Coach")]
         public string FullName { get {return string.Format("{0} {1}", LastName, Name); } }
 
         public virtual DocumentType DocumentType { get; set; }

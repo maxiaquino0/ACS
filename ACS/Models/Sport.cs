@@ -27,5 +27,6 @@ namespace ACS.Models
         public virtual Employee Employee { get; set; }
         public virtual ICollection<MonthlyFeeDetail> MonthlyFeeDetails { get; set; }
 
+
     }
 }

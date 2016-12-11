@@ -1,0 +1,41 @@
+﻿@model ACS.ViewModels.PartnerSportView
+@{
+    ViewBag.Title = "Sport List";
+}
+<h3>Sport List of: @Model.Partner.FullName</h3>
+
+
+<p>
+    @Html.ActionLink("Add Sport", "AddSport", new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sport.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sport.Employee.FullName)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Sports)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.FullName)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "DeleteSport", new { sportID = item.SportID, partnerID = Model.Partner.PartnerID })
+            </td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "IndexFamilyGroup", new { id = Model.Partner.PartnerHeadOfFamilyID})
+</div>
+
+

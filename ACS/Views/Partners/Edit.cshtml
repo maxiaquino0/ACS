@@ -74,6 +74,12 @@
         </div>
 
         <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PartnerHeadOfFamilyID, new { htmlAttributes = new { @class = "hidden" } })
+            </div>
+        </div>
+
+        <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Save" class="btn btn-default" />
             </div>

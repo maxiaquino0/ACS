@@ -62,6 +62,7 @@
             @Html.ActionLink("Edit", "Edit", new { id=item.PartnerID }) |
             @Html.ActionLink("Details", "Details", new { id=item.PartnerID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.PartnerID }) |
+            @Html.ActionLink("FamilyGroup", "IndexFamilyGroup", new { id = item.PartnerID }) |
             @Html.ActionLink("Cuotas", "Index", "MonthlyFees", new{ id = item.PartnerID}, null)
         </td>
     </tr>
