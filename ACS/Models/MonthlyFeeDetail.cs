@@ -15,6 +15,8 @@ namespace ACS.Models
 
         public int SportID { get; set; }
 
+        public int PartnerID { get; set; }
+
         [StringLength(30)]
         [Required(ErrorMessage = "You must enter {0}")]
         public string Description { get; set; }
@@ -27,5 +29,6 @@ namespace ACS.Models
 
         public virtual MonthlyFee MonthlyFee { get; set; }
         public virtual Sport Sport { get; set; }
+        public virtual Partner Partner { get; set; }
     }
 }

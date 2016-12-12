@@ -43,6 +43,7 @@ namespace ACS.Models
 
         public virtual DocumentType DocumentType { get; set; }
         public virtual ICollection<MonthlyFee> MonthlyFees { get; set; }
+        public virtual ICollection<MonthlyFeeDetail> MonthlyFeeDetails { get; set; }
 
     }
 }

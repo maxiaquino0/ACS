@@ -10,6 +10,8 @@ namespace ACS.ViewModels
     {
         public Partner Partner { get; set; }
 
+        public MonthlyFee MonthlyFee { get; set; }
+
         public MonthlyFeeDetail MonthlyFeeDetail { get; set; }
 
         public List<MonthlyFeeDetail> MonthlyFeeDetails { get; set; }
