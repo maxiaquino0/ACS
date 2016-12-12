@@ -119,7 +119,8 @@ namespace ACS.Controllers
             {
                 LastName = partner.LastName,
                 Name = partner.Name,
-                PartnerID = partner.PartnerID
+                PartnerID = partner.PartnerID,
+                PartnerHeadOfFamilyID = partner.PartnerHeadOfFamilyID
             };
             var sportsID = db.PartnerSport.Where(p => p.PartnerID == partnerID).Select(s => s.SportID).ToList();
             foreach (var item in sportsID)
