@@ -37,7 +37,7 @@ namespace ACS.Models
         [DataType(DataType.EmailAddress)]
         public string EMail { get; set; }
 
-        public int PartnerHeadOfFamilyID { get; set; }
+        public int? PartnerHeadOfFamilyID { get; set; }
 
         public string FullName { get { return string.Format("{0} {1}", LastName, Name); } }
 

@@ -175,8 +175,13 @@ namespace ACS.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PartnerID,LastName,Name,DocumentNumber,DocumentTypeID,Phone,Address,EMail,PartnerHeadOfFamilyID")] Partner partner)
         {
+            
             if (ModelState.IsValid)
             {
+                if (partner.PartnerHeadOfFamilyID == null)
+                {
+                    partner.PartnerHeadOfFamilyID = 0;
+                }                
                 db.Partners.Add(partner);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -214,7 +219,14 @@ namespace ACS.Controllers
             {
                 db.Entry(partner).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                if (partner.PartnerHeadOfFamilyID == 0)
+                {
+                    return RedirectToAction("Index", new { id = partner.PartnerHeadOfFamilyID });
+                }
+                else
+                {
+                    return RedirectToAction("IndexFamilyGroup", new { id = partner.PartnerHeadOfFamilyID });
+                }                
             }
             var list = GetDocumentType();
             ViewBag.DocumentTypeID = new SelectList(list, "DocumentTypeID", "Description", partner.DocumentTypeID);
