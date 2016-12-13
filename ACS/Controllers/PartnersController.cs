@@ -184,7 +184,15 @@ namespace ACS.Controllers
                 }                
                 db.Partners.Add(partner);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                if (partner.PartnerHeadOfFamilyID == 0)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return RedirectToAction("IndexFamilyGroup", new { id = partner.PartnerHeadOfFamilyID});
+                }
+                
             }
             var list = GetDocumentType();
             ViewBag.DocumentTypeID = new SelectList(list, "DocumentTypeID", "Description", partner.DocumentTypeID);

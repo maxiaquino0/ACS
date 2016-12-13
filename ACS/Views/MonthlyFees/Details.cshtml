@@ -12,7 +12,10 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-
+    if (Model.MonthlyFee.MonthlyFeeStatus.ToString() == "Debe")
+    {
+        <input type="submit" value="Pay Monthly Fee" class="btn btn-success" />
+    }
     <table class="table">
         <tr>
             <th>
@@ -35,8 +38,6 @@
             </tr>
         }
     </table>
-
-    <input type="submit" value="Pay Monthly Fee" class="btn btn-success" />
-
 }
 
+@Html.ActionLink("Back to List MonthlyFees", "Index", new { id = Model.Partner.PartnerID })

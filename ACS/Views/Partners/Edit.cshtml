@@ -86,10 +86,19 @@
         </div>
     </div>
 }
+@if (Model.PartnerHeadOfFamilyID == 0)
+{
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+}
+else
+{
+    <div>
+        @Html.ActionLink("Back to List Family Group", "IndexFamilyGroup", new { id = Model.PartnerHeadOfFamilyID })
+    </div>
+}
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

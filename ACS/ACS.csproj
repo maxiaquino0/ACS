@@ -378,8 +378,6 @@
     <Content Include="Views\Sports\Edit.cshtml" />
     <Content Include="Views\Sports\Index.cshtml" />
     <Content Include="Views\MonthlyFees\Index.cshtml" />
-    <Content Include="Views\MonthlyFees\NewMonthlyFee.cshtml" />
-    <Content Include="Views\MonthlyFees\AddSport.cshtml" />
     <Content Include="Views\MonthlyFees\Details.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Users\Roles.cshtml" />

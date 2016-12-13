@@ -18,8 +18,8 @@ namespace ACS.Controllers
             var partner = db.Partners.Find(id);
             if (partner == null)
             {
-                ViewBag.Error = "Cliente no existente.";
-                return RedirectToAction("Index", "Customers");
+                ViewBag.Error = "Socio no existente.";
+                return RedirectToAction("Index", "Partners");
             }
             Session["partnerHeadOfFamilyID"] = id;
             
@@ -219,7 +219,9 @@ namespace ACS.Controllers
             {
                 montoTotal += item.FeeAmount;
             }
+            
             monthlyFeeDetails.MonthlyFeeDetails.Add(new MonthlyFeeDetail { MonthlyFeeID = 0, MonthlyFeeDetailID = 0 , Description = "Total amount: ", FeeAmount=montoTotal});
+            Session["monthlyFeeViewDetail"] = monthlyFeeDetails;
 
             return View(monthlyFeeDetails);
         }
