@@ -1,0 +1,29 @@
+﻿@model ACS.ViewModels.UserView
+
+@{
+    ViewBag.Title = "Roles";
+}
+
+<h2>Roles to User: @Model.Name</h2>
+
+<p>
+    @Html.ActionLink("Add Role", "AddRole", new { userID = Model.UserID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back To List", "Index", new { }, new { @class = "btn btn-info" })
+</p>
+
+
+<table class="table">
+    
+    @foreach (var item in Model.Roles)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { userID = Model.UserID, roleID = item.RoleID })
+            </td>
+        </tr>
+    }
+
+</table>

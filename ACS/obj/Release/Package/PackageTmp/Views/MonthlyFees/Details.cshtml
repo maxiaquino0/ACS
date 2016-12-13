@@ -1,0 +1,43 @@
+﻿@model ACS.ViewModels.MonthlyFeeViewDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>MonthlyFeeViewDetails</h2>
+
+<h4 class="text-info">@Model.Partner.FullName</h4>
+<h4 class="text-info">Cuota Nro: @Model.MonthlyFee.MonthlyFeeID del periodo: @Model.MonthlyFee.Period.Month / @Model.MonthlyFee.Period.Year</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    if (Model.MonthlyFee.MonthlyFeeStatus.ToString() == "Debe")
+    {
+        <input type="submit" value="Pay Monthly Fee" class="btn btn-success" />
+    }
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthlyFeeDetail.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthlyFeeDetail.FeeAmount);
+            </th>
+        </tr>
+
+        @for (int i = 0; i < Model.MonthlyFeeDetails.Count(); i++)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.MonthlyFeeDetails[i].Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.MonthlyFeeDetails[i].FeeAmount)
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@Html.ActionLink("Back to List MonthlyFees", "Index", new { id = Model.Partner.PartnerID })

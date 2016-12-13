@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ACS.Models.MonthlyFee>
+@{
+    ViewBag.Title = "MonthlyFee List";
+}
+
+<h2 class="text-primary">@ViewBag.PartnerFullName</h2>
+
+<h2>MonthlyFee List</h2>
+
+<h4 class="text-info">@TempData["Message"]</h4>
+<h4 class="text-danger">@ViewBag.Error</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <p>
+        @Html.ActionLink("New Monthly Fee", "NewMonthlyFee", new { }, new { @class = "btn btn-primary" })
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                Nro Cuota
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Period)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthlyFeeStatus)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MonthlyFeeID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Period)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MonthlyFeeStatus)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.MonthlyFeeID })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+
+@Html.ActionLink("Back to List Partners", "Index", "Partners")

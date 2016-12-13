@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="acslb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\GIT\\ACS\\ACS\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\GIT\\ACS\\ACS\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ACS.Models.ACSContext-Web.config Connection String" description="" value="ACS.Models.ACSContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\GIT\\ACS\\ACS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ACS.Models.ACSContext']/@connectionString" />
+  </parameter>
+  <parameter name="ACSContext-Web.config Connection String" description="" value="Data Source=mssql4.gear.host; Initial Catalog=acsdb; Persist Security Info=True; User ID=acsdb; Password=Km28vP8?~S58" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\GIT\\ACS\\ACS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ACSContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=mssql4.gear.host;Initial Catalog=acsdb;Persist Security Info=True; User ID=acsdb; Password=Km28vP8?~S58" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\GIT\\ACS\\ACS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="X_MarketContext-Web.config Connection String" description="" value="" tags="" />
+</parameters>

@@ -1,0 +1,23 @@
+﻿@model ACS.Models.Sport
+@{
+    ViewBag.Title = "AddSport";
+}
+<h2>Add Sport</h2>
+<h3>@ViewBag.Error</h3>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.SportID, "SportID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("SportID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SportID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <input type="submit" value="Add Sport" class="btn btn-default" />
+    </div>
+}
+
