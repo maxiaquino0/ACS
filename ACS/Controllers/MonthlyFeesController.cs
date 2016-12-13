@@ -25,7 +25,7 @@ namespace ACS.Controllers
             
             ViewBag.PartnerFullName = partner.FullName.ToString();
 
-            var monthlyFeeList = db.MonthlyFees.Where(m => m.PartnerID == id).ToList();
+            var monthlyFeeList = db.MonthlyFees.Where(m => m.PartnerID == id).ToList().OrderByDescending(mf => mf.Period);
 
             return View(monthlyFeeList);
         }
@@ -40,11 +40,20 @@ namespace ACS.Controllers
             {
                 return HttpNotFound();
             }
-            var monthlyFee = db.MonthlyFees.Where(p => p.PartnerID == partnerHeadOfFamilyID && (p.Period.Year == DateTime.Now.Year && p.Period.Month == DateTime.Now.Month)) as MonthlyFee;
-
-            if (monthlyFee != null)
+            var monthlyFeeList = db.MonthlyFees.Where(p => p.PartnerID == partnerHeadOfFamilyID).ToList();
+            var monthlyFee = new MonthlyFee();
+            foreach (var item in monthlyFeeList)
             {
-                return View();
+                if (item.Period.Year == DateTime.Now.Year && item.Period.Month == DateTime.Now.Month)
+                {
+                    monthlyFee = item;
+                }
+            }
+
+            if (monthlyFee.MonthlyFeeID != 0)
+            {
+                TempData["Message"] = string.Format("La cuota para éste periodo ya fue generada.");
+                return RedirectToAction("Index", "MonthlyFees", new { id = partner.PartnerID });
             }
             var monthlyFeeID = 0;
             using (var transaction = db.Database.BeginTransaction())
