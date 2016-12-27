@@ -12,6 +12,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace ACS.Controllers
 {
+    [Authorize(Roles = "Administrator, Employee")]
     public class EmployeesController : Controller
     {
         private ACSContext db = new ACSContext();

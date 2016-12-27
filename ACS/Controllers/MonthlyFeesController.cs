@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace ACS.Controllers
 {
+    [Authorize(Roles = "Administrator, Employee")]
     public class MonthlyFeesController : Controller
     {
         private ACSContext db = new ACSContext();

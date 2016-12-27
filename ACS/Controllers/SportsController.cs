@@ -10,6 +10,7 @@ using ACS.Models;
 
 namespace ACS.Controllers
 {
+    [Authorize(Roles = "Administrator, Employee")]
     public class SportsController : Controller
     {
         private ACSContext db = new ACSContext();

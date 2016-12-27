@@ -11,6 +11,7 @@ using ACS.ViewModels;
 
 namespace ACS.Controllers
 {
+    [Authorize(Roles = "Administrator, Employee")]
     public class PartnersController : Controller
     {
         private ACSContext db = new ACSContext();
