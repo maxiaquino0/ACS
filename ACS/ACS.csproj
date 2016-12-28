@@ -210,6 +210,7 @@
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MembershipFeesController.cs" />
     <Compile Include="Controllers\MonthlyFeesController.cs" />
     <Compile Include="Controllers\PartnersController.cs" />
     <Compile Include="Controllers\SportsController.cs" />
@@ -226,6 +227,7 @@
       <DependentUpon>201609131935125_SeAgregaPartner.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\MembershipFee.cs" />
     <Compile Include="Models\MonthlyFee.cs" />
     <Compile Include="Models\MonthlyFeeDetail.cs" />
     <Compile Include="Models\MonthlyFeeStatus.cs" />
@@ -384,6 +386,7 @@
     <Content Include="Views\Partners\IndexFamilyGroup.cshtml" />
     <Content Include="Views\Partners\SportList.cshtml" />
     <Content Include="Views\Partners\AddSport.cshtml" />
+    <Content Include="Views\MembershipFees\ChangeMembershipFee.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

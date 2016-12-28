@@ -38,5 +38,7 @@ namespace ACS.Models
         public System.Data.Entity.DbSet<ACS.Models.MonthlyFeeDetail> MonthlyFeeDetails { get; set; }
 
         public DbSet<PartnerSport> PartnerSport { get; set; }
+
+        public DbSet<MembershipFee> MembershipFee { get; set; }
     }
 }
