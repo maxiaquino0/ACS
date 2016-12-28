@@ -14,8 +14,13 @@ namespace ACS.Controllers
         private ACSContext db = new ACSContext();
 
         // GET: MonthlyFees
-        public ActionResult Index(int id)
+        public ActionResult Index(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var partner = db.Partners.Find(id);
             if (partner == null)
             {
@@ -34,8 +39,9 @@ namespace ACS.Controllers
         // NewMonthlyFees
         public ActionResult NewMonthlyFee()
         {
-            var partnerHeadOfFamilyID = int.Parse(Session["partnerHeadOfFamilyID"].ToString());
             
+            var partnerHeadOfFamilyID = int.Parse(Session["partnerHeadOfFamilyID"].ToString());
+
             var partner = db.Partners.Find(partnerHeadOfFamilyID);
             if(partner == null)
             {
@@ -106,98 +112,7 @@ namespace ACS.Controllers
             return RedirectToAction("Index", "MonthlyFees", new { id = partner.PartnerID });
         }
 
-        // POST: NewMonthlyFee
-        //[HttpPost]
-        //public ActionResult NewMonthlyFee(MonthlyFeeView monthlyFeeView)
-        //{
-        //    monthlyFeeView = Session["monthlyFeeView"] as MonthlyFeeView;
-
-        //    if (monthlyFeeView.Sports.Count == 0)
-        //    {
-        //        ViewBag.Error = "You need to add a product.";
-        //        return View(monthlyFeeView);
-        //    }
-
-        //    int monthlyFeeID = 0;
-        //    using (var transaction = db.Database.BeginTransaction())
-        //    {
-        //        try
-        //        {
-        //            var monthlyFee = new MonthlyFee
-        //            {
-        //                PartnerID = monthlyFeeView.Partner.PartnerID,
-        //                Period = DateTime.Now,
-        //                MonthlyFeeStatus = MonthlyFeeStatus.Debe
-        //            };
-        //            db.MonthlyFees.Add(monthlyFee);
-        //            db.SaveChanges();
-
-        //            monthlyFeeID = db.MonthlyFees.Select(m => m.MonthlyFeeID).Max();
-
-        //            foreach (var item in monthlyFeeView.Sports)
-        //            {
-        //                var monthlyFeeDetail = new MonthlyFeeDetail
-        //                {
-        //                    MonthlyFeeID = monthlyFeeID,
-        //                    SportID = item.SportID,
-        //                    Description = item.Description,
-        //                    FeeAmount = item.FeeAmount
-        //                };
-        //                db.MonthlyFeeDetails.Add(monthlyFeeDetail);
-        //                db.SaveChanges();
-        //            }
-        //            transaction.Commit();
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            transaction.Rollback();
-        //            ViewBag.Error = "Error: " + ex.Message;
-        //            return View(monthlyFeeView);
-        //        }
-        //    }
-
-
-        //    TempData["Message"] = string.Format("La cuota de {0}, numero {1} fue guardada OK.", monthlyFeeView.Partner.FullName, monthlyFeeID);
-
-        //    var partner = db.Partners.Find(Session["partnerID"]);
-        //    monthlyFeeView = new MonthlyFeeView();
-        //    monthlyFeeView.Partner = partner;
-        //    monthlyFeeView.Sports = new List<Sport>();
-
-        //    Session["monthlyFeeView"] = monthlyFeeView;
-
-        //    return RedirectToAction("Index", "MonthlyFees", new { id = partner.PartnerID });
-        //}
-
-        //GET: AddSport
-        //public ActionResult AddSport()
-        //{
-        //    var listS = GetSports();
-        //    ViewBag.SportID = new SelectList(listS, "SportID", "Description");
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public ActionResult AddSport(Sport sport)
-        //{
-        //    var monthlyFeeView = Session["monthlyFeeView"] as MonthlyFeeView;
-        //    var sportID = int.Parse(Request["SportID"]);
-        //    if(sportID == 0)
-        //    {
-        //        var list = GetSports();
-        //        ViewBag.SportID = new SelectList(list, "SportID", "Description");
-        //        ViewBag.Error = "You must select a Sport.";
-        //        return View();
-        //    }
-
-        //    var sportF = db.Sports.Find(sportID);
-
-        //    monthlyFeeView.Sports.Add(sportF);
-            
-        //    return View("NewMonthlyFee", monthlyFeeView);
-        //}
-
-        // GET: Partners/Details/5
+        
         public ActionResult Details(int? id)
         {
             if (id == null)

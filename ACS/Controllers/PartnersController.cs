@@ -24,15 +24,26 @@ namespace ACS.Controllers
         }
 
         // GET: IndexFamilyGroup
-        public ActionResult IndexFamilyGroup(int id)
+        public ActionResult IndexFamilyGroup(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var partners = db.Partners.Include(p => p.DocumentType).Where(h => h.PartnerHeadOfFamilyID == id);
             ViewBag.PartnerHeadOfFamilyID = id;
             return View(partners.ToList());
         }
 
         // GET: SportsList
-        public ActionResult SportList(int id) {
+        public ActionResult SportList(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var partnerSportsView = new PartnerSportView();
             var partner = db.Partners.Find(id);
             partnerSportsView.Sport = new Sport();
@@ -99,6 +110,11 @@ namespace ACS.Controllers
         // DeleteSport
         public ActionResult DeleteSport(int sportID, int partnerID)
         {
+            if (sportID == 0 || partnerID == 0)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var partner = db.Partners.Find(partnerID);
             var sport = db.Sports.Find(sportID);
             var partnerSport = db.PartnerSport.First(p => p.SportID == sportID && p.PartnerID == partnerID);
@@ -159,8 +175,13 @@ namespace ACS.Controllers
         }
 
         // GET: Partners/Create
-        public ActionResult CreateFamily(int id)
+        public ActionResult CreateFamily(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var list = GetDocumentType();
             ViewBag.DocumentTypeID = new SelectList(list, "DocumentTypeID", "Description");
             var partner = new Partner {
