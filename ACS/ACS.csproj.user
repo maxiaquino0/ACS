@@ -12,7 +12,7 @@
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
-    <NameOfLastUsedPublishProfile>acslb - Web Deploy %282%29</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>acslbr - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

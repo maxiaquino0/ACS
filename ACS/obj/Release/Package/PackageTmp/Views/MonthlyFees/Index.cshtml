@@ -18,7 +18,7 @@
         @Html.ActionLink("New Monthly Fee", "NewMonthlyFee", new { }, new { @class = "btn btn-primary" })
     </p>
 
-    <table class="table">
+    <table id="tablaCuotas" class="table table-hover">
         <tr>
             <th>
                 Nro Cuota
@@ -35,8 +35,8 @@
         </tr>
 
         @foreach (var item in Model)
-        {
-            <tr>
+        {            
+            <tr id="monthlyFeeR">
                 <td>
                     @Html.DisplayFor(modelItem => item.MonthlyFeeID)
                 </td>

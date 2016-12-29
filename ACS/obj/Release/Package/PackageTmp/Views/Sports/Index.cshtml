@@ -9,7 +9,10 @@
 <p>
     @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-primary" })
 </p>
-<table class="table">
+<p>
+    @Html.ActionLink("Admin Membership Fee", "ChangeMembershipFee", "MembershipFees", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-hover">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Employee.FullName)
