@@ -59,7 +59,7 @@ namespace ACS.Controllers
 
             if (monthlyFee.MonthlyFeeID != 0)
             {
-                TempData["Message"] = string.Format("La cuota para éste periodo ya fue generada.");
+                TempData["Message"] = string.Format("La cuota para éste período ya fue generada.");
                 return RedirectToAction("Index", "MonthlyFees", new { id = partner.PartnerID });
             }
             var monthlyFeeID = 0;
@@ -67,12 +67,19 @@ namespace ACS.Controllers
             {
                 try
                 {
-                    
+                    var membershipFee = db.MembershipFee.ToList();
+                    if (membershipFee.Count == 0)
+                    {
+                        TempData["Message"] = string.Format("Debe cargar un monto de cuota social primero.");
+                        return RedirectToAction("Index", "MonthlyFees", new { id = partner.PartnerID });
+                    }
+                    var membershipFeeAmount = db.MembershipFee.First().Amount;   
                     monthlyFee = new MonthlyFee
                     {
                         PartnerID = partnerHeadOfFamilyID,
                         Period = DateTime.Now,
-                        MonthlyFeeStatus = MonthlyFeeStatus.Debe
+                        MonthlyFeeStatus = MonthlyFeeStatus.Debe,
+                        MembershipFeeAmount = membershipFeeAmount
                     };
                     db.MonthlyFees.Add(monthlyFee);
                     db.SaveChanges();
@@ -96,6 +103,7 @@ namespace ACS.Controllers
                             db.MonthlyFeeDetails.Add(monthlyFeeDetail);
                             db.SaveChanges();
                         }
+                        
                     }
                     transaction.Commit();
                 }
@@ -135,7 +143,10 @@ namespace ACS.Controllers
             {
                 montoTotal += item.FeeAmount;
             }
-            
+
+            monthlyFeeDetails.MonthlyFeeDetails.Add(new MonthlyFeeDetail { Description = "Membership Fee", FeeAmount = monthlyFee.MembershipFeeAmount });
+            montoTotal += monthlyFee.MembershipFeeAmount;
+
             monthlyFeeDetails.MonthlyFeeDetails.Add(new MonthlyFeeDetail { MonthlyFeeID = 0, MonthlyFeeDetailID = 0 , Description = "Total amount: ", FeeAmount=montoTotal});
             Session["monthlyFeeViewDetail"] = monthlyFeeDetails;
 
@@ -152,7 +163,7 @@ namespace ACS.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             var monthlyFeeID = 0;
-            for (int i = 0; i < (monthlyFeeViewDetail.MonthlyFeeDetails.Count()-1); i++)
+            for (int i = 0; i < (monthlyFeeViewDetail.MonthlyFeeDetails.Count()-2); i++)
             {
                 monthlyFeeID = monthlyFeeViewDetail.MonthlyFeeDetails[i].MonthlyFeeID;
             }

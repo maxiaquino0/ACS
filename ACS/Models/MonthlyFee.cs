@@ -20,6 +20,10 @@ namespace ACS.Models
 
         public MonthlyFeeStatus MonthlyFeeStatus { get; set; }
 
+        [Display(Name = "Membership Fee Amount")]
+        [DataType(DataType.Currency)]
+        [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
+        public decimal MembershipFeeAmount { get; set; }
 
         public virtual Partner Partner { get; set; }
         public virtual ICollection<MonthlyFeeDetail> MonthlyFeeDetails { get; set; }
