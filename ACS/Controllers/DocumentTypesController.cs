@@ -116,10 +116,8 @@ namespace ACS.Controllers
             {
                 db.SaveChanges();
             }
-            catch (Exception ex)
-            {
-                
-            }
+            catch (Exception)
+            {}
             
             return RedirectToAction("Index");
         }

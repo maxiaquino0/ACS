@@ -123,7 +123,7 @@ namespace ACS.Controllers
             {
                 db.SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 
             }
@@ -289,7 +289,7 @@ namespace ACS.Controllers
             {
                 db.SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 
             }

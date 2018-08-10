@@ -19,7 +19,7 @@ namespace ACS.Controllers
         public ActionResult Index()
         {
             var sports = db.Sports.Include(s => s.Employee);
-            
+            return View(sports.ToList());
         }
 
         // GET: Sports/Details/5
@@ -121,7 +121,7 @@ namespace ACS.Controllers
             {
                 db.SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;
