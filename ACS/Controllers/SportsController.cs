@@ -19,7 +19,7 @@ namespace ACS.Controllers
         public ActionResult Index()
         {
             var sports = db.Sports.Include(s => s.Employee);
-            return View(sports.ToList());
+            
         }
 
         // GET: Sports/Details/5
